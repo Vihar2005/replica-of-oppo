@@ -1,0 +1,577 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containar {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.ali {
+    align-items: center;
+}
+
+.jsc {
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav {
+    padding: 10px 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 60px 0 0;
+}
+
+/* hover start */
+
+
+.buy button:hover{
+    text-decoration: underline;
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px 0 #1c1c1c;
+}
+
+.main:hover{
+    transform: scale(1.05);
+}
+.back:hover{
+    transform: scale(1.05);
+}
+
+.links a:hover {
+    text-decoration: underline;
+    /* transform:scale3d(1.05); */
+    color: black;
+}
+.Learn button:hover{
+    text-decoration: underline;
+    transform: scale(1.05);
+    color: black;
+    box-shadow: 0 10px 30px 0 #1c1c1c;
+}
+.now button:hover{
+    text-decoration: underline;
+    transform: scale(1.05);
+    color: black;
+}
+.save-1:hover{
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+.phone:hover{
+    transform: scale(1.07);
+}
+.new-button button:hover{
+    text-decoration: underline;
+    transform: scale(1.08);
+    color: black;
+}
+.save:hover{
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+.cards ul li :hover{
+    transform: scale(1.07);
+    text-decoration:underline;
+    color: #ffffff;
+}
+.links a {
+    text-decoration: none;
+    color: rgb(109, 96, 96);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.icon form input {
+    border-radius: 50px;
+    padding: 10px 5px;
+    background-color: rgb(218, 205, 205);
+    border: none;
+    /* width: 10px; */
+    /* padding: 0 30px 0 0; */
+}
+
+.icon i {
+    padding: 0 0 0 20px;
+}
+
+.icon form input[type='text']::placeholder {
+    opacity: 0.502;
+    font-size: 15px;
+    padding: 0 0 0 10px;
+}
+
+
+.col-40 {
+    width: 40%;
+}
+
+.col-55 {
+    width: 55%;
+}
+
+.icon form input[type='text'] {
+    /* padding: 0 10px 0 0; */
+    margin: 0 10px 0 0;
+}
+
+.main {
+    padding: 90px 0 0 0;
+}
+
+.main img {
+    width: 100%;
+}
+
+.home-sec {
+    background-color: whitesmoke;
+    padding: 0 0 80px 0;
+}
+
+.main-sec h1,
+h2 {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 50px 0 0 0;
+}
+
+.main-sec h3,
+h4 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 0 0 100px 0;
+}
+
+.class {
+    padding: 100px 0 0 0;
+    margin: 100px 0 0 0;
+}
+
+.buy {
+    padding: 0 0 10px 0;
+}
+
+.buy button {
+    border-radius: 80px;
+    /* margin: 10px 0; */
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.More {
+    color: white;
+    background-color: black;
+}
+
+/* section-2 */
+
+
+.section-two {
+    background-color: hsl(0, 2%, 92%);
+}
+
+.back img {
+    width: 100%;
+}
+
+.back {
+    width: 100%;
+}
+
+.lorem-1 p {
+    padding: 100px 0 0 0;
+    font-size: 25px;
+    font-family: sans-serif;
+    opacity: 0.502;
+}
+
+.lorem-1 {
+    padding: 100px 0 50px 10px;
+    margin: 100px 0 0 0;
+}
+
+.lorem p {
+    font-size: 25px;
+    font-family: sans-serif;
+    opacity: 0.502;
+}
+
+.lorem {
+    padding: 100px 0 0 10px;
+    margin: 100px 0 0 0;
+}
+
+/* section-3 */
+
+.section-3 {
+    background-image: url(./img/benefit-pc-v2.jpg.thumb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 800px; */
+    /* width: 100% ; */
+}
+
+.main-3 h2 {
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 80px 0 0 0;
+}
+
+.main-3 p {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 10px 0 0 0;
+}
+
+.Learn button {
+    border-radius: 80px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    opacity: 0.802;
+    border: none;
+}
+
+.Learn {
+    padding: 50px 0 40px 0;
+}
+
+/* section-4 */
+
+
+.sec-4 {
+    background-image: url(./img/sec--4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 800px;
+}
+
+.main-4 h3 {
+    font-size: 25px;
+    font-weight: 200;
+    font-family: sans-serif;
+    padding: 100px 0 0 0;
+}
+
+.main-4 h4 {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: sans-serif;
+    opacity: 0.502;
+    text-align: right;
+}
+
+.sec-4 h4 {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 40px 0 100px 30px;
+}
+
+.box {
+    border: solid 2px;
+    width: 15%;
+    background-color: #d7ffdb;
+    padding: 30px 0 30px 30px;
+}
+
+.box p {
+    /* width: ; */
+    font-size: 15px;
+    font-weight: 200;
+    font-family: sans-serif;
+    opacity: 1.00;
+}
+
+.col-50 {
+    width: 50%;
+    /* border: solid white 5px; */
+}
+
+.col-35 {
+    width: 50%;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.phone {
+    width: 100%;
+}
+
+.phone img {
+    width: 100%;
+}
+
+.phone-1 {
+    align-items: center;
+}
+
+.border {
+    border: 5px white solid;
+}
+.now button{
+    border: none;
+    margin: 0 10px 0 0;
+    padding: 30px 0 0 0;
+    background-color: #d7ffdb;
+    /* text-decoration: underline; */
+
+}
+
+.main-col {
+    background-color: whitesmoke;
+    /* border: 5px white solid; */
+}
+
+.newphone h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    padding: 10px 0 100px 10px;
+}
+
+.box-1 {
+    background-color: hsl(0, 2%, 92%);
+    padding: 20px 0 20px 10px;
+}
+
+.box-1 p {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: sans-serif;
+    opacity: 0.902;
+}
+
+.class-1 {
+    padding: 90px 0 0 0;
+}
+
+/* .box-1 button{
+    padding: 50px 0 0 0;
+} */
+.new-button {
+    padding: 50px 30px 0 30px;
+}
+
+.new-button button {
+    border: none;
+    margin: 0 10px 0 0;
+    background-color: hsl(0, 2%, 92%);
+    /* text-decoration: underline; */
+}
+
+
+
+/* section-5 */
+
+
+.col-30 {
+    width: 30%;
+}
+/* .save img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+} */
+
+.card img {
+    width: 100%;
+}
+
+.card {
+    background-color: whitesmoke;
+}
+
+.card h5 {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 0 0 30px 10px;
+}
+
+.card p {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    opacity: 0.802;
+    margin: 0 0 5px 5px;
+}
+
+.main-5 h5 {
+    padding: 80px 0 20px 0;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+
+
+/* section-6 */
+
+
+.main-6 h5 {
+    padding: 80px 0 20px 0;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+
+/* section-7 */
+
+.main-7 h5 {
+    padding: 80px 0 20px 0;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+
+/* section-8 */
+
+
+.section-8 {
+    background-color: rgb(249, 249, 252);
+    /* height: 1300px; */
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box-2 {
+    /* background-color: rgb(250, 248, 248); */
+    overflow: hidden;
+}
+
+#img-1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.box-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#img-2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#img-3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.box-2 img:hover {
+    transform: scale(1.07);
+}
+
+.sec-8 {
+    padding: 70px 0 0 0;
+}
+
+.text-1 {
+    padding: 0 0 40px 0;
+}
+
+.text-1 h5 {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 0 0 25px 0;
+}
+
+.text-1 p {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+
+/* section-9 */
+
+.text-2,
+.sec-9 {
+    /* text-align: right; */
+    padding: 70px 0 0 0;
+}
+
+.text-2 p {
+    margin: 0 0 50px 0;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.sec-9 h5 {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.section-9 {
+    background-color: whitesmoke;
+    padding: 50px 0;
+}
+
+/* section-10 */
+
+.section-10 {
+    height: 500px;
+    background-color: black;
+}
+
+.main-10 {
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 40px 0 30px 0;
+}
+
+.cards ul li {
+    /* margin: 0 0 3px 0; */
+    padding: 0 0 5px 0;
+}
+
+.cards ul li a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.502;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
